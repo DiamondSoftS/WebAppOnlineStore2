@@ -46,7 +46,7 @@ const Inicio = () => {
           <div className="col-6" style={{ backgroundColor: "white" }}>
             <h2> Conoces nuestros planes</h2>
             <p>Basico $599.00 al mes </p>
-            <p>+3.5% de comision sobre el precio final del producto</p>
+            <p>+5.7% de comision sobre el precio final del producto</p>
             <p>+tarifas de procesamientos de pago.</p>
             <p>Pagos encriptados y seguros a traves de Google pay</p>
             <p>Sin plazos forzosos, conoce los t&c sobre la activación.</p>
@@ -194,3 +194,4 @@ const Inicio = () => {
 };
 
 export default Inicio;
+
