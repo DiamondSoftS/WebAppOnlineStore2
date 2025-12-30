@@ -1,3 +1,6 @@
+import React from "react";
+import {useAuth0} from "@auth0/auth0-react";
+
 function IniciarSesion() {
   const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
 
@@ -20,3 +23,4 @@ function IniciarSesion() {
 }
 
 export default IniciarSesion;
+
