@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const IniciarSesion = () => {
+/*const IniciarSesion = () => {
   return (
     <>
       <center>
@@ -31,6 +31,15 @@ const IniciarSesion = () => {
       </center>
     </>
   );
-};
+};*/
+
+import { useAuth0 } from "@auth0/auth0-react";
+
+function IniciarSesion() {
+  const { loginWithRedirect } = useAuth0();
+
+  return <button onClick={() => loginWithRedirect()}>Iniciar sesión</button>;
+}
 
 export default IniciarSesion;
+
