@@ -49,7 +49,7 @@ const Inicio = () => {
             <p>+5.7% de comision sobre el precio final del producto</p>
             <p>+tarifas de procesamientos de pago.</p>
             <p>Pagos encriptados y seguros a traves de Google pay</p>
-            <p>Sin plazos forzosos, conoce los t&c sobre la activación.</p>
+            <p>Sin plazos forzosos, conoce los t&c sobre la activación y términos legales en el help center antes de contratar el servicio.</p>
             <p>
               Cumplimiento normativo digital: Para negocios que manejan datos
               sensibles, contar con SSL es parte de cumplir estándares de
