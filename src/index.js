@@ -6,7 +6,8 @@ import App from "./App";
 import {Auth0Provider} from "@auth0/auth0-react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+root.render(   
+  <Provider store={store}>
    <Auth0Provider
     domain="ascysa.us.auth0.com"
     clientId="Cbvi8o58OvcJ7gbMP35h84Ar5GzBwI1j"
@@ -14,11 +15,10 @@ root.render(
       redirect_uri: window.location.origin,
     }}
   >
-  <Provider store={store}>
     <Router>
       <App />
     </Router>
-  </Provider>
     </Auth0Provider>
+  </Provider>
 
 );
