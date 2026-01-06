@@ -8,12 +8,12 @@
 }
 
 .SpecialClass {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 18%;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 180px;
   padding: 5px;
   position: fixed;
+  bottom:0px;
   left: 0px;
-  right: 0px;
   border: green 1px solid;
 }
 
@@ -28,14 +28,13 @@
 
 @media only screen and (max-width: 678px) {
   .SpecialClass {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     border: none;
     width: 40%;
     padding: 5px;
     position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 1;
+    bottom: -20px;
+    left: 0px;
   }
 }
 
