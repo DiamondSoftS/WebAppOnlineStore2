@@ -7,12 +7,14 @@ const Registro = () => {
 
   return (
     <>
-      <h2>Mi cuenta</h2>
+    <center>
+      <h3>My Account</h3>
+    </center>
 
       {isAuthenticated ? (
         <div>
-          <h2>Bienvenido {user?.name}</h2>
-          <img src={user?.picture} alt={user?.name} />
+         
+          <img src={user?.picture} alt={user?.name} /> <h3>Bienvenido {user?.name}</h3>
         </div>
       ) : (
         <h2>No has iniciado sesión</h2>
