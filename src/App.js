@@ -17,7 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<DispatchStore />} />
         <Route path="Inicio" element={<Inicio />} />
-        <Route path="Registrate" element={<Contacto />} />
+        <Route path="MiCuenta" element={<Contacto />} />
         <Route path="IniciarSesion" element={<IniciarSesion />} />
       </Routes>
     </>
