@@ -39,7 +39,7 @@ function IniciarSesion() {
       ) : (
         <div>
           <h2>Bienvenido {user.name}</h2>
-          <button onClick={() => logout({ returnTo: window.location.origin })}>
+          <button className="btn btn-danger" onClick={() => logout({ returnTo: window.location.origin })}>
             Cerrar sesión
           </button>
         </div>
