@@ -54,7 +54,7 @@ const NavigationBar = () => {
           <li className="nav-item">
             <Link to="Registrate" className="nav-link">
               <FaArrowUp style={{ fontSize: "1.3rem" }} />
-              Registrate
+              Cuenta
             </Link>
           </li>
 
