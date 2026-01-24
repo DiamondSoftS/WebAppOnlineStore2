@@ -1,7 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Registro = () => {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { user, isAuthenticated, isLoading, logout } = useAuth0();
 
   if (isLoading) return <p>Cargando...</p>;
 
