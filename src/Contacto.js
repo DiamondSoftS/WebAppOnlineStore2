@@ -17,7 +17,11 @@ const Registro = () => {
           <img src={user?.picture} alt={user?.name} /> <h3>Bienvenido {user?.name}</h3>
         </div>
       ) : (
-        <h2>No has iniciado sesión</h2>
+        <>
+        <center>
+        <h3>No has iniciado sesión</h3>
+        </center>
+        </>
       )}
     </>
   );
