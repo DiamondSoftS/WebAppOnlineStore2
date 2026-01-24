@@ -38,7 +38,8 @@ function IniciarSesion() {
         </button>
       ) : (
         <div>
-          <h2>Bienvenido {user.name}</h2>
+          <h2>Bienvenido {user.name} </h2>
+          <img src={user.picture}/>
           <button className="btn btn-danger" onClick={() => logout({ returnTo: window.location.origin })}>
             Cerrar sesión
           </button>
