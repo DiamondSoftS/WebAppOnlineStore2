@@ -39,8 +39,8 @@ function DispatchStore() {
   const handleLoadPaymentData = (paymentData) => {
     console.log("PaymentData: ", paymentData);
 
-    // Calcular el 1.9% adicional
-    const additionalAmount = total * 0.019;
+    // Calcular el 5.7% adicional
+    const additionalAmount = total * 0.057;
 
     // Aquí puedes enviar el monto total y el porcentaje adicional a las cuentas correspondientes
     const contractorAmount = total - additionalAmount;
@@ -49,7 +49,7 @@ function DispatchStore() {
     // (esto dependerá de cómo esté configurada tu cuenta bancaria y las APIs que uses)
     console.log(`Monto total: ${total}`);
     console.log(`Monto al contratante: ${contractorAmount}`);
-    console.log(`Monto adicional: ${additionalAmount}`); // 1.9% payment for services
+    console.log(`Monto adicional: ${additionalAmount}`); // 5.7% payment for services
   };
 
   return (

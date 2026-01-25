@@ -21,6 +21,8 @@
   bottom:0px;
   left: 0px;
   border: green 1px solid;
+  overflow-y: auto;   /* aparece solo si el contenido se desborda */
+  max-height: 500px;
 }
 
 .animated-div {
@@ -41,6 +43,9 @@
     position: fixed;
     bottom: -20px;
     left: 0px;
+    overflow-y: auto;
+    max-height: 420px;
+    
   }
 }
 
