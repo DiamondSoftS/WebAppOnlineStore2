@@ -14,8 +14,14 @@ const Registro = () => {
       {isAuthenticated ? (
         <div>
          
-          <img src={user?.picture} alt={user?.name} /> <h3>Bienvenido {user?.name}</h3>
-          <button className="btn btn-danger" onClick={() => logout({ returnTo: window.location.origin })}>
+          <img src={user?.picture} alt={user?.name} /> <h3>Bienvenid@ {user?.name} </h3>
+          <br/>
+
+          <br/>
+          <h4> Historial de compras </h4>
+          <br/>
+          <br/>
+         <button className="btn btn-danger" onClick={() => logout({ returnTo: window.location.origin })}>
             Cerrar sesión
           </button>
         
