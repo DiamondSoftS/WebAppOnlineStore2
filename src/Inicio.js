@@ -44,34 +44,34 @@ const Inicio = () => {
         <br />
         <div className="row">
           <div className="col-md-6 col-lg-6 col-sm-12" style={{ backgroundColor: "white" }}>
-            <h2> Conoces nuestros planes</h2>
-            <p>Basico $599.00 al mes </p>
-            <p>+5.7% de comision sobre el precio final del producto</p>
-            <p>+tarifas de procesamientos de pago.</p>
-            <p>Pagos encriptados y seguros a traves de Google pay</p>
+            <h2> Conoces nuestros planes</h2><hr/>
+            <p>Basico $599.00 al mes </p><hr/>
+            <p>+5.7% de comision sobre el precio final del producto</p><hr/>
+            <p>+tarifas de procesamientos de pago.</p><hr/>
+            <p>Pagos encriptados y seguros a traves de Google pay</p><hr/>
             <p>Sin plazos forzosos, conoce los t&c sobre la activación y términos legales en el help center antes de contratar el servicio.</p>
-            <p>
+            <p><hr/>
               Cumplimiento normativo digital: Para negocios que manejan datos
               sensibles, contar con SSL es parte de cumplir estándares de
               seguridad y privacidad.
-            </p>
+            </p><hr/>
           </div>
           <br />
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-sm-12">
             <h2>Beneficios</h2>
-            <p>Sin costos de almacenamiento, ni logistica</p>
-            <p>maneja tus envios o entrega en tienda </p>
-            <p>
+            <p>Sin costos de almacenamiento, ni logistica</p><hr/>
+            <p>maneja tus envios o entrega en tienda </p><hr/>
+            <p><hr/>
               La comision en el mercado varia del 7 al 15% de comision <br />
               sobre tu ganancia
-            </p>
+            </p><hr/>
             <p>Personalizamos el sitio con tu marca, sin costo de desarrollo</p>
-            <p>
+            <p><hr/>
               Recibe y acepta más de 100 métodos de pago, incluyendo tarjetas de
               crédito/débito (Visa, Mastercard, Amex), billeteras digitales
               (Apple Pay, Google Pay), transferencias bancarias (SEPA, Adeudo
               Directo, métodos locales OXXO en México, Bancontact, iDEAL
-            </p>
+            </p><hr/>
           </div>
         </div>
         <div
