@@ -43,7 +43,7 @@ const Inicio = () => {
         <br />
         <br />
         <div className="row">
-          <div className="col-6" style={{ backgroundColor: "white" }}>
+          <div className="col-md-6 col-lg-6 col-sm-12" style={{ backgroundColor: "white" }}>
             <h2> Conoces nuestros planes</h2>
             <p>Basico $599.00 al mes </p>
             <p>+5.7% de comision sobre el precio final del producto</p>
@@ -57,7 +57,7 @@ const Inicio = () => {
             </p>
           </div>
           <br />
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <h2>Beneficios</h2>
             <p>Sin costos de almacenamiento, ni logistica</p>
             <p>maneja tus envios o entrega en tienda </p>
@@ -194,4 +194,3 @@ const Inicio = () => {
 };
 
 export default Inicio;
-
