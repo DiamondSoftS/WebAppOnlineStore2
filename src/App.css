@@ -17,7 +17,7 @@
 }
 
 .SpecialClass {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   width: 180px;
   padding: 5px;
   position: fixed;
@@ -37,9 +37,14 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
+.CorrouselAS{
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
 @media only screen and (max-width: 678px) {
   .SpecialClass {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.7);
     border: none;
     width: 40%;
     padding: 5px;
@@ -88,7 +93,7 @@ li {
 
 .floating-pay-button {
   position: fixed;
-  bottom: -20px;
+  bottom: -15px;
   right: 2px;
   z-index: 1000;
 }
