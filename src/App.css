@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.carousel-control-prev-icon{
+  background-color: black;
+}
 
 .LoginAS{
   border-right: black 1px solid;
