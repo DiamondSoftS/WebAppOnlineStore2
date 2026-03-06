@@ -48,10 +48,10 @@ const Inicio = () => {
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-75" src={Planes} style={{ width: 370, height: 350 }} alt="First slide"/>
+      <img class="d-block w-75" src={Planes} style={{ width: 370, height: 450 }} alt="First slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-75" src={Beneficios} style={{ width: 350, height: 300 }} alt="Second slide"/>
+      <img class="d-block w-75" src={Beneficios} style={{ width: 370, height: 450 }} alt="Second slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
