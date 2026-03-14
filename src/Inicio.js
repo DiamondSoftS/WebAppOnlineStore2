@@ -33,7 +33,7 @@ const Inicio = () => {
           >
             {" "}
             Usa nuestra platorma en linea para introducirte <br />a un mercado
-            nacional
+            nacional de ventas.
           </p>
 
           <br />
@@ -45,13 +45,14 @@ const Inicio = () => {
         <br />
         <br />
        
+    <div className="CorrouselAS">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-75" src={Planes} style={{ width: 350, height: 300 }} alt="First slide"/>
+      <img class="d-block w-100" src={Planes} style={{ width: 350, height: 430 }} alt="First slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-75" src={Beneficios} style={{ width: 350, height: 300 }} alt="Second slide"/>
+      <img class="d-block w-100" src={Beneficios} style={{ width: 350, height: 430 }} alt="Second slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -62,6 +63,7 @@ const Inicio = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 
 <br/>
