@@ -171,7 +171,7 @@ const Inicio = () => {
             </p>
             <p> Soporte premium en español las 24 horas</p>
             <p>Programa de recompensas</p>
-            <h3 className="text-success">$4,900.00 </h3>
+            <h3 className="text-success">$6,500 </h3>
             <p>sin comision</p>
             <Link to="../IniciarSesion">
               <button className="btn btn-outline-success">Agregar plan</button>
