@@ -107,7 +107,7 @@ const Inicio = () => {
               Conecta el sitio Web a tu cuenta de atencion de clientes WhatsApp
             </p>
             <p> Soporte en español las 24 horas</p>
-            <h3 className="text-success">$599.00 </h3>
+            <h3 className="text-success">$779.00 </h3>
             <p>+ 5.7% de comision por compra</p>
             <Link to="../IniciarSesion">
               <button className="btn btn-outline-success">Agregar plan</button>
@@ -139,7 +139,7 @@ const Inicio = () => {
               Conecta el sitio Web a tu cuenta de atencion de clientes WhatsApp
             </p>
             <p> Soporte premium en español las 24 horas</p>
-            <h3 className="text-success">$899.00 </h3>
+            <h3 className="text-success">$999.00 </h3>
             <p>+ 3.5% de comision por compra</p>
             <Link to="../IniciarSesion">
               <button className="btn btn-outline-success">Agregar plan</button>
@@ -171,7 +171,7 @@ const Inicio = () => {
             </p>
             <p> Soporte premium en español las 24 horas</p>
             <p>Programa de recompensas</p>
-            <h3 className="text-success">$5,500.00 </h3>
+            <h3 className="text-success">$4,900.00 </h3>
             <p>sin comision</p>
             <Link to="../IniciarSesion">
               <button className="btn btn-outline-success">Agregar plan</button>
