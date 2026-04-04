@@ -7,6 +7,7 @@ import { GiStarMedal } from "react-icons/gi";
 import { GiMoneyStack } from "react-icons/gi";
 import Planes from "./PlanesASCYSA.png";
 import Beneficios from "./BeneficiosASCYSA.png";
+import { MdOutlineStar } from "react-icons/md";
 
 const Inicio = () => {
   return (
@@ -43,6 +44,7 @@ const Inicio = () => {
         <br />
         <p> Expertos en desarrollar soluciones digitales</p>
         <br />
+        <MdOutlineStar/><MdOutlineStar/><MdOutlineStar/><MdOutlineStar/><MdOutlineStar/>
         <br />
         <br />
        
