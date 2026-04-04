@@ -41,6 +41,7 @@ const Inicio = () => {
         </div>
         <br />
         <br />
+        <p> Expertos en desarrollar soluciones digitales</p>
         <br />
         <br />
         <br />
