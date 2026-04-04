@@ -42,9 +42,8 @@ const Inicio = () => {
         </div>
         <br />
         <br />
-        <p> Expertos en desarrollar soluciones digitales</p>
         <br />
-        <MdOutlineStar/><MdOutlineStar/><MdOutlineStar/><MdOutlineStar/><MdOutlineStar/>
+        <MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/>
         <br />
         <br />
        
