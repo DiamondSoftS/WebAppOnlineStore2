@@ -10,6 +10,12 @@
   background-color: black;
 }
 
+.logoAS{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
 .LoginAS{
   border-right: black 1px solid;
   border-bottom: black 1px solid;

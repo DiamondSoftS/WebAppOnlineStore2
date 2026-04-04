@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ASCYSA from "./ASCYSA.png";
+import ASWeb3 from "./ASWeb3.jpeg";
 import { CiMoneyCheck1 } from "react-icons/ci";
 import { IoDiamondSharp } from "react-icons/io5";
 import { GiStarMedal } from "react-icons/gi";
@@ -37,7 +37,7 @@ const Inicio = () => {
           </p>
 
           <br />
-          <img src={ASCYSA} style={{ width: 300, height: 300 }} />
+          <img src={ASWeb3} className="logoAS" />
         </div>
         <br />
         <br />
