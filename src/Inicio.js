@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Shiva from "./ShivaASLogo.jpeg";
+import White from "./LOGO ASCYSA BLANCO.png";
 import { CiMoneyCheck1 } from "react-icons/ci";
 import { IoDiamondSharp } from "react-icons/io5";
 import { GiStarMedal } from "react-icons/gi";
@@ -38,7 +38,7 @@ const Inicio = () => {
           </p>
 
           <br />
-          <img src={Shiva} className="logoAS" />
+          <img src={White} className="logoAS" />
         </div>
         <br />
         <br />
