@@ -11,9 +11,8 @@
 }
 
 .logoAS{
-  height: 175px;
-  width: 175px;
-  border-radius: 50%;
+  height: 155px;
+  width: 155px;
 
 }
 
@@ -62,6 +61,13 @@
     max-height: 420px;
     
   }
+.logoAS{
+  height: 135px;
+  width: 135px;
+
+}
+
+
 }
 
 li {

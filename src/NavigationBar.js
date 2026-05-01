@@ -23,7 +23,7 @@ const NavigationBar = () => {
       data-bs-theme="black"
     >
       <Link to="/" className="navbar-brand">
-        Advance Solutions C&S
+        Advance Solutions C&SA
       </Link>
       <button
         className="navbar-toggler"

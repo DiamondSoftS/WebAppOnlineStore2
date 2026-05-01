@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import White from "./LOGO ASCYSA BLANCO.png";
+import White from "./LOGO ASCYSA NEGRO.png";
+import Shiva from "./ShivaASLogo.jpeg";
 import { CiMoneyCheck1 } from "react-icons/ci";
 import { IoDiamondSharp } from "react-icons/io5";
 import { GiStarMedal } from "react-icons/gi";
@@ -8,6 +9,8 @@ import { GiMoneyStack } from "react-icons/gi";
 import Planes from "./PlanesASCYSA.png";
 import Beneficios from "./BeneficiosASCYSA.png";
 import { MdOutlineStar } from "react-icons/md";
+
+//Git Status test**
 
 const Inicio = () => {
   return (
@@ -40,13 +43,11 @@ const Inicio = () => {
           <br />
           <img src={White} className="logoAS" />
         </div>
-        <br />
-        <br />
-        <br />
+        <br/>
         <MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/>
         <br />
         <br />
-       
+
     <div className="CorrouselAS">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -55,6 +56,9 @@ const Inicio = () => {
     </div>
     <div class="carousel-item">
       <img class="d-block w-75" src={Beneficios} style={{ width: 350, height: 390 }} alt="Second slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-75" src={Shiva} style={{ width: 350, height: 390 }} alt="Second slide"/>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -109,7 +113,7 @@ const Inicio = () => {
               Conecta el sitio Web a tu cuenta de atencion de clientes WhatsApp
             </p>
             <p> Soporte en español las 24 horas</p>
-            <h3 className="text-success">$779.00 </h3>
+            <h3 className="text-success">$749.00 </h3>
             <p>+ 5.7% de comision por compra</p>
             <Link to="../IniciarSesion">
               <button className="btn btn-outline-success">Agregar plan</button>
