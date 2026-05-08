@@ -133,9 +133,7 @@ publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrx
             <p> Soporte en español las 24 horas</p>
             <h3 className="text-success">$749.00 </h3>
             <p>+ 5.7% de comision por compra</p>
-            <Link to="../IniciarSesion">
-              <button className="btn btn-outline-success">Agregar plan</button>
-            </Link>
+            
           </div>
           <div
             className="col-sm-4 col-12"
@@ -165,9 +163,6 @@ publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrx
             <p> Soporte premium en español las 24 horas</p>
             <h3 className="text-success">$999.00 </h3>
             <p>+ 3.5% de comision por compra</p>
-            <Link to="../IniciarSesion">
-              <button className="btn btn-outline-success">Agregar plan</button>
-            </Link>
           </div>
           <div
             className="col-sm-4 col-12"
@@ -197,9 +192,6 @@ publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrx
             <p>Programa de recompensas</p>
             <h3 className="text-success">$5,500.00 </h3>
             <p>sin comision</p>
-            <Link to="../IniciarSesion">
-              <button className="btn btn-outline-success">Agregar plan</button>
-            </Link>
           </div>
         </div>
 
