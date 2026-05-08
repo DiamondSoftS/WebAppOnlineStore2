@@ -9,10 +9,22 @@ import { GiMoneyStack } from "react-icons/gi";
 import Planes from "./PlanesASCYSA.png";
 import Beneficios from "./BeneficiosASCYSA.png";
 import { MdOutlineStar } from "react-icons/md";
+import {useEffect} from "react"
 
 //Git Status test**
 
 const Inicio = () => {
+
+  useEffect(() => {
+    // evitar duplicar script
+    if (!document.querySelector('script[src="https://js.stripe.com/v3/pricing-table.js"]')) {
+      const script = document.createElement("script");
+      script.src = "https://js.stripe.com/v3/pricing-table.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
+  }, []);
+
   return (
     <>
       <center>
@@ -77,8 +89,7 @@ const Inicio = () => {
 
 <stripe-pricing-table 
 pricing-table-id="prctbl_1TSpQWGhdaW1xBvJAeSMAIv8"
-publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrxVAII8TbgBlARuXuxFI2uKRk7PzLHMlPqKT00y6eNXuIm"
->
+publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrxVAII8TbgBlARuXuxFI2uKRk7PzLHMlPqKT00y6eNXuIm">
 </stripe-pricing-table>
 
 <br/>
