@@ -132,7 +132,7 @@ publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrx
             </p>
             <p> Soporte en español las 24 horas</p>
             <h3 className="text-success">$749.00 </h3>
-            <p>+ 9.1% de comision por compra</p>
+            <p>+ 8.9% de comision por compra</p>
             
           </div>
           <div
