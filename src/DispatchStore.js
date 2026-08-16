@@ -87,7 +87,8 @@ function DispatchStore() {
           <p className="SpecialClass">
             <h6>
               <center>
-                Carrito <GiShoppingCart />{" "}
+                Carrito <GiShoppingCart />{carrito.length}
+
               </center>
             </h6>
             <hr />
@@ -106,8 +107,9 @@ function DispatchStore() {
                 </li>
               ))}
             </ul>
-            total: ${total}
-          </p>
+            total: ${total} 
+          </p>           
+        
         </span>
       </div>
       {showPayButton && (

@@ -17,7 +17,7 @@ const Inicio = () => {
 
   useEffect(() => {
     // evitar duplicar script
-    if (!document.querySelector('script[src="https://js.stripe.com/v3/pricing-table.js"]')) {
+    if (!document.querySelector('script[src="https://js.stripe.com/v3/pricing-ta3ble.js"]')) {
       const script = document.createElement("script");
       script.src = "https://js.stripe.com/v3/pricing-table.js";
       script.async = true;
@@ -41,7 +41,16 @@ const Inicio = () => {
             color: "white",
           }}
         >
-          <p
+          
+          <br />
+          <img src={White} className="logoAS" />
+        </div>
+        <br/>
+        <MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/>
+        <br />
+        <br />
+
+         <p
             style={{
               background: "white",
               color: "black",
@@ -52,13 +61,8 @@ const Inicio = () => {
             nacional de ventas.
           </p>
 
-          <br />
-          <img src={White} className="logoAS" />
-        </div>
-        <br/>
-        <MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/><MdOutlineStar size={50}/>
-        <br />
-        <br />
+          <br/>
+          <br/>
 
     <div className="CorrouselAS">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
