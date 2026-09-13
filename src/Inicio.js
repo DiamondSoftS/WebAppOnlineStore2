@@ -193,7 +193,7 @@ publishable-key="pk_test_51QjATWGhdaW1xBvJQdafZMk5F0KYvEEXM3jgqDF9831JC9CSzVWHrx
             </p>
             <p> Soporte premium en español las 24 horas</p>
             <p>Programa de recompensas</p>
-            <h3 className="text-success">$4,900.00 </h3>
+            <h3 className="text-success">$4,999.00 </h3>
             <p>+4.7 comision por compra</p>
           </div>
         </div>
