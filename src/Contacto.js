@@ -15,7 +15,7 @@ const Registro = () => {
         <div>
          
           <img src={user?.picture} alt={user?.name} /> <h3> {user?.name} </h3>
-          <h2> {user?.email} </h2>
+          <p> {user?.email} </p>
           <br/>
           <br/>
          <button className="btn btn-danger" onClick={() => logout({ returnTo: window.location.origin })}>
