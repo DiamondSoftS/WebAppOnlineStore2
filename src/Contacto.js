@@ -15,10 +15,6 @@ const Registro = () => {
         <div>
          
           <img src={user?.picture} alt={user?.name} /> <h3>Bienvenid@ {user?.name} </h3>
-          <br/>
-          <p>Email para recibos de compras: {user?.email} </p>
-
-          <br/>
           <h4> Historial de compras </h4>
           <br/>
           <br/>
