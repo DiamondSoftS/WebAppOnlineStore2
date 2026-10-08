@@ -13,9 +13,10 @@ const Registro = () => {
 
       {isAuthenticated ? (
         <div>
-         
+         <center>
           <img src={user?.picture} alt={user?.name} /> <h3> {user?.name} </h3>
           <p> {user?.email} </p>
+         </center>
           <br/>
           <br/>
          <button className="btn btn-danger" onClick={() => logout({ returnTo: window.location.origin })}>
