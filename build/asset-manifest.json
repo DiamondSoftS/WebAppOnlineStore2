@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8e9228c.css",
+    "main.js": "/static/js/main.bda0ba76.js",
+    "static/media/ShivaASLogo.jpeg": "/static/media/ShivaASLogo.ae109fc71e3764f18733.jpeg",
+    "static/media/PlanesASCYSA.png": "/static/media/PlanesASCYSA.fa000209cd2fb42fb5b2.png",
+    "static/media/BeneficiosASCYSA.png": "/static/media/BeneficiosASCYSA.5f124509bbcca257481d.png",
+    "static/media/LOGO ASCYSA NEGRO.png": "/static/media/LOGO ASCYSA NEGRO.9d9e01b2d84c91a3020d.png",
+    "index.html": "/index.html",
+    "main.a8e9228c.css.map": "/static/css/main.a8e9228c.css.map",
+    "main.bda0ba76.js.map": "/static/js/main.bda0ba76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e9228c.css",
+    "static/js/main.bda0ba76.js"
+  ]
+}

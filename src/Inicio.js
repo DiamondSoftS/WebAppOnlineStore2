@@ -46,9 +46,7 @@ const Inicio = () => {
           <img src={White} className="logoAS" />
         </div>
         <br/>
-        <MdOutlineStar size={50} color="gold"/> <MdOutlineStar size={50} color="gold"/><MdOutlineStar size={50} color="gold"/><MdOutlineStar size={50} color="gold"/><MdOutlineStar size={50} color="gold"/>
-
-
+       <MdOutlineStar size={50} color="d3a007"/><MdOutlineStar size={50} color="d3a007"/><MdOutlineStar size={50} color="d3a007"/><MdOutlineStar size={50} color="da3007"/><MdOutlineStar size={50} color="da3007"/>
 
 
         <br />
