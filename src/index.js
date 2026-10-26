@@ -9,10 +9,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(   
   <Provider store={store}>
    <Auth0Provider
-    domain="dev-7dxry48g2jgh1f04.us.auth0.com"
-    clientId="KjRGAhLC6H8EYyPPhEFQPrvGeu1nM4fP"
+    domain={process.env.REACT_APP_AUTH0_DOMAIN}
+    clientId={process.env.REACT_APP_AUTH0_CLIENT_ID}
     authorizationParams={{
       redirect_uri: window.location.origin,
+      connection: 'ASCYSA-Subscripciones',
     }}
   >
     <Router>
