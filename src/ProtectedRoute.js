@@ -12,10 +12,15 @@ function ProtectedRoute() {
   if (!isAuthenticated) {
     return (
       <div>
-        <p>Debes iniciar sesión para acceder.</p>
-        <button onClick={() => loginWithRedirect()}>
+        <center>
+          <br/>
+          <br/>
+        <h3>Debes iniciar sesión para acceder.</h3>
+         <br/> 
+        <button className="btn btn-danger" onClick={() => loginWithRedirect()}>
           Iniciar sesión
         </button>
+        </center>
       </div>
     );
   }

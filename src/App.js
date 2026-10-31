@@ -8,7 +8,7 @@ import Contacto from "./Contacto";
 import IniciarSesion from "./IniciarSesion";
 import { useEffect } from "react";
 import TalkChat from "./TalkChat";
-import ProtectedRoute from "ProtectedRoute";
+import ProtectedRoute from "./ProtectedRoute";
 
 const App = () => {
   <TalkChat />;
@@ -19,12 +19,12 @@ const App = () => {
       <Routes>
         <Route path="/" element={<DispatchStore />} />
         <Route path="Inicio" element={<Inicio />} />
+        <Route path="IniciarSesion" element={<IniciarSesion />} />
 
          <Route element={<ProtectedRoute />}>
 
         <Route path="MiCuenta" element={<Contacto />} />
-        <Route path="IniciarSesion" element={<IniciarSesion />} />
-       
+               
         </Route>
      
       </Routes>
